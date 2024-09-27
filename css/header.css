@@ -1,0 +1,141 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 75px;
+    background: #fff;
+    box-shadow: 0 0 1em #ddd;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+}
+
+header img{
+    height: 60%;
+    cursor: pointer;
+}
+
+header .search-content{
+    width: 50%;
+    display: flex;
+    box-shadow: 0 0 1em #ddd;
+    border-radius: 7px;
+}
+
+header .login{
+    width: 90%;
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    background: url(../img/fundo-apresent.png);
+    color: #080808;
+    box-shadow: 0 0 1rem #00000060;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+header .search-content .search-input{
+    border: none;
+    padding: 0 15px;
+    width: 95%;
+    height: 30px;
+    border-radius: 7px 0 0 7px;
+    color: #080808;
+    background-color: #fff;
+    outline: none;
+}
+
+header .search-content button{
+    height: 30px;
+    width: 5%;
+    border-radius: 0 7px 7px 0;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/fundo-apresent.png);
+    color: #000;
+    cursor: pointer;
+}
+
+header .bx-menu{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+header .icons{
+    display: flex;
+    align-items: center;
+}
+
+header nav{
+    position: fixed;
+    top: 0px;
+    right: -100%;
+    width: 200px;
+    height: 100vh;
+    padding: 30px 10px;
+    background: url(../img/fundo-apresent.png);
+    box-shadow: 0 0 2rem #00000080;
+    overflow-y: auto;
+    transition: .5s;
+}
+
+header nav .bx-x-circle{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #000000;
+}
+
+header .inicio{
+    margin-left: 20px;
+    color: #000000;
+    background-color: #ffffff80;
+    font-size: 14px;
+}
+
+header .inicio:hover{
+    text-decoration: underline;
+}
+
+header .anos{
+    margin-top: 10px;
+}
+
+header nav ul{
+    margin-left: 10px;
+    padding: 5px;
+}
+
+header nav ul a{
+    font-size: 14px;
+    color: #000;
+    background-color: #ffffff80;
+    padding: 5px;
+}
+
+header nav ul ul li ul{
+    display: none;
+    transition: 1s;
+} 
+
+header nav ul ul li:hover ul{
+    display: block;
+}
+
+header nav ul ul li a:hover{
+    text-decoration: underline;
+}
+
+header nav ul ul li:hover a .bx-chevron-down{
+    transform: rotate(180deg);
+}
+
+nav .bx-chevron-down{
+    transition: 0.3s;
+}

@@ -1,0 +1,64 @@
+.login-content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fundo-apresent.png);
+}
+
+.login-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 1em #ddd;
+    min-width: 400px;
+    height: 250px;
+}
+
+.login-div .user-login, .senha-login{
+    padding: 10px;
+    background: #1c1919;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.user-login input, .senha-login input{
+    background: transparent;
+    border: 0;
+    color: #fff;
+    outline: none;
+    width: 100%;
+}
+
+.login-div .bx{
+    color: #fff;
+    margin-right: 20px;
+}
+
+.login-div button{
+    width: 100%;
+    padding: 10px;
+    background: #484747;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+}
+
+.login-div a{
+    color: #1c1919;
+    text-decoration: underline;
+    font-size: 8px;
+    margin-top: 5px;
+}
+
+.login-div img{
+    width: 80px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,49 @@
+main{
+    width: 80%;
+    height: 70vh;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 3rem #dedede;
+    position: absolute;
+    left: 10%;
+    top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    background-image: url(../img/fundo-apresent.png);
+}
+
+main img{
+    height: 95%;
+    border-radius: 100%;
+    animation: imagerotator 5s infinite;
+    box-shadow: 0 0 2rem #282424;
+}
+
+@keyframes imagerotator {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+main .texto-main{
+    width: 60%;
+    margin-right: 40px;
+    background-color: #ffffff60;
+    padding: 10px;
+}
+
+main p{
+    font-size: 14px;
+}
+
+main h1{
+    margin-bottom: 15px;
+    font-weight: 300;
+}

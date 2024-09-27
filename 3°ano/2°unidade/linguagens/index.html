@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="../../../img/logo_juca.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../../css/reset.css">
+    <link rel="stylesheet" href="../../../css/header.css">
+    <link rel="stylesheet" href="../../../css/atvd.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+    <title>My portfólio</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="../../../img/Juca_logo_ (1).png" alt="">
+        <form class="search-content" action="./pesquisar/" method="get">
+            <input autocomplete="off" id="searchInput" name="search" required maxlength="30" placeholder="Pesquise aqui a atividade" type="text" class="search-input">
+            <button onclick="btnSearch()"><i class='bx bx-search'></i></button>
+        </form>
+        <i class='bx bx-menu'></i>
+        <nav class="navbar">
+            <i class='bx bx-x-circle'></i>
+            <a class="inicio" href="../../../">Página Inicial</a>
+            <ul>
+                <a href="#">3° Ano</a>
+                <ul>
+                    <li>
+                        <a href="#">1° unidade<i class='bx bx-chevron-down'></i></a>
+                        <ul>
+                            <li><a href="#">Matemática</a></li>
+                            <li><a href="#">Linguagens</a></li>
+                            <li><a href="#">Natureza</a></li>
+                            <li><a href="#">Humanas</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">2° unidade<i class='bx bx-chevron-down'></i></a>
+                        <ul>
+                            <li><a href="../../../3°ano/2°unidade/matematica/">Matemática</a></li>
+                            <li><a href="../../../3°ano/2°unidade/linguagens/">Linguagens</a></li>
+                            <li><a href="../../../3°ano/2°unidade/natureza/">Natureza</a></li>
+                            <li><a href="../../../3°ano/2°unidade/humanas/">Humanas</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">3° unidade<i class='bx bx-chevron-down'></i></a>
+                        <ul>
+                            <li><a href="#">Matemática</a></li>
+                            <li><a href="#">Linguagens</a></li>
+                            <li><a href="#">Natureza</a></li>
+                            <li><a href="#">Humanas</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">4° unidade<i class='bx bx-chevron-down'></i></a>
+                        <ul>
+                            <li><a href="#">Matemática</a></li>
+                            <li><a href="#">Linguagens</a></li>
+                            <li><a href="#">Natureza</a></li>
+                            <li><a href="#">Humanas</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </ul>
+            <a class="login" href="../../../login/">Login</a>
+        </nav>
+    </header>
+    <div class="atividades-content tdl"></div>
+    <script src="../../../js/navbar.js"></script>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
